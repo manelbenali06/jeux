@@ -1,0 +1,172 @@
+/* **************************************** RESET **************************************** */
+
+    * {
+        padding: O;
+        margin: 0;
+        list-style-type: none;
+        text-decoration: none;
+    }
+
+/* **************************************** GLOBAL **************************************** */
+
+    * {
+        font-family: sans-serif;
+    }
+
+    h2 {
+        text-transform: uppercase;
+        text-align: center;
+        margin: 1em 0;
+    }
+
+    h3 {
+        margin: 0.5em 0;
+    }
+
+    hr {
+        border: 1px solid #000000;
+        margin: 4em 5em;
+    }
+
+/* **************************************** HEADER **************************************** */
+
+    header {
+        position: fixed;
+        top: 0;
+        width: 100vw;
+        text-align: center;
+        padding: 1em 0;
+        background-color: #000000;
+        color: #FFFFFF;
+    }
+
+/* **************************************** MAIN **************************************** */
+
+        main {
+            margin-top: 69px;
+            margin-bottom: 10em;
+        }  
+
+    /* ******************** NAV ******************** */
+
+        nav {
+            position: fixed;
+            top: 69px;
+            width: 200vw;
+            background-color: #444444;
+        }
+
+            nav ul {
+                width: 200vw;
+            }
+
+                nav ul li {
+                    display: inline-block;
+                    width: 24.76vw;
+                    text-align: center;
+                }
+                
+                    nav ul li a {
+                        display: inline-block;
+                        width: 100%;
+                        line-height: 35px;
+                        color: #FFFFFF;
+                    }
+                    
+                    nav ul li:hover {
+                        background-color: #888888;
+                    }
+
+    /* ******************** CONTENT ******************** */
+
+        main #content {
+            padding: 0 2em;
+            margin-top: 8em;
+        }
+
+            #content table {
+                width: 90vw;
+                margin: 1em 5vw;
+                text-align: center;
+            }
+
+                #content table thead tr th {
+                    background-color: #000000;
+                    color: #FFFFFF;
+                    padding: 0.5em;
+                    text-transform: uppercase;
+                }
+
+                #content table th,
+                #content table td {
+                    line-height: 30px;
+                }
+
+            #content ul li {
+                margin-left: 0.5em;
+                list-style-type: '- ';
+            }
+
+    /* ******************** FORM ******************** */
+
+        form {
+            width: 20vw;
+            margin: 2em calc(40vw - 2em);
+        }
+
+            form label,
+            form input {
+                display: block;
+                width: 100%;
+            }
+
+            form label,
+            form input[type="submit"] {
+                margin-top: 2em;
+            }
+
+            form input {
+                height: 30px;
+                border: none;
+            }
+            
+                form input {
+                    border-bottom: 1px solid #888888;
+                    font-size: 1em;
+                    color: #444444;
+                }
+
+                form input[type=submit] {
+                    width: auto;
+                    float: right;
+                    padding: 0.5em 1em;
+                    background-color: #444444;
+                    color: #FFFFFF;
+                    border-radius: 15px;
+                    cursor: pointer;
+                    text-transform: capitalize;
+                }
+
+    /* ******************** BUTTON ******************** */
+
+        .bouton {
+            display: block;
+            float: right;
+            padding: 0.5em 1em;
+            border-radius: 1em;
+            color: #FFFFFF;
+            background-color: #444444;
+        }
+
+/* **************************************** FOOTER **************************************** */
+
+    footer {
+        position: fixed;
+        bottom: 0;
+        width: 100vw;
+        text-align: center;
+        font-size: 0.75em;
+        padding: 1em 0;
+        background-color: #000000;
+        color: #FFFFFF;
+    }
